@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30FB3DA8204D2E6000EFD983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB3DA7204D2E6000EFD983 /* AppDelegate.m */; };
+		30FB3DAB204D2E6000EFD983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB3DAA204D2E6000EFD983 /* ViewController.m */; };
+		30FB3DAE204D2E6000EFD983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FB3DAC204D2E6000EFD983 /* Main.storyboard */; };
+		30FB3DB0204D2E6000EFD983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FB3DAF204D2E6000EFD983 /* Assets.xcassets */; };
+		30FB3DB3204D2E6000EFD983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FB3DB1204D2E6000EFD983 /* LaunchScreen.storyboard */; };
+		30FB3DB6204D2E6000EFD983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB3DB5204D2E6000EFD983 /* main.m */; };
+		30FB3DC0204D2E6000EFD983 /* JenkinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB3DBF204D2E6000EFD983 /* JenkinsTests.m */; };
+		30FB3DCB204D2E6000EFD983 /* JenkinsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB3DCA204D2E6000EFD983 /* JenkinsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30FB3DBC204D2E6000EFD983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FB3D9B204D2E6000EFD983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FB3DA2204D2E6000EFD983;
+			remoteInfo = Jenkins;
+		};
+		30FB3DC7204D2E6000EFD983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FB3D9B204D2E6000EFD983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FB3DA2204D2E6000EFD983;
+			remoteInfo = Jenkins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30FB3DA3204D2E6000EFD983 /* Jenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jenkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FB3DA6204D2E6000EFD983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30FB3DA7204D2E6000EFD983 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30FB3DA9204D2E6000EFD983 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30FB3DAA204D2E6000EFD983 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30FB3DAD204D2E6000EFD983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30FB3DAF204D2E6000EFD983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30FB3DB2204D2E6000EFD983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30FB3DB4204D2E6000EFD983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FB3DB5204D2E6000EFD983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30FB3DBB204D2E6000EFD983 /* JenkinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FB3DBF204D2E6000EFD983 /* JenkinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsTests.m; sourceTree = "<group>"; };
+		30FB3DC1204D2E6000EFD983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FB3DC6204D2E6000EFD983 /* JenkinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FB3DCA204D2E6000EFD983 /* JenkinsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsUITests.m; sourceTree = "<group>"; };
+		30FB3DCC204D2E6000EFD983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30FB3DA0204D2E6000EFD983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB3DB8204D2E6000EFD983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB3DC3204D2E6000EFD983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FB3D9A204D2E6000EFD983 = {
+			isa = PBXGroup;
+			children = (
+				30FB3DA5204D2E6000EFD983 /* Jenkins */,
+				30FB3DBE204D2E6000EFD983 /* JenkinsTests */,
+				30FB3DC9204D2E6000EFD983 /* JenkinsUITests */,
+				30FB3DA4204D2E6000EFD983 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30FB3DA4204D2E6000EFD983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30FB3DA3204D2E6000EFD983 /* Jenkins.app */,
+				30FB3DBB204D2E6000EFD983 /* JenkinsTests.xctest */,
+				30FB3DC6204D2E6000EFD983 /* JenkinsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30FB3DA5204D2E6000EFD983 /* Jenkins */ = {
+			isa = PBXGroup;
+			children = (
+				30FB3DA6204D2E6000EFD983 /* AppDelegate.h */,
+				30FB3DA7204D2E6000EFD983 /* AppDelegate.m */,
+				30FB3DA9204D2E6000EFD983 /* ViewController.h */,
+				30FB3DAA204D2E6000EFD983 /* ViewController.m */,
+				30FB3DAC204D2E6000EFD983 /* Main.storyboard */,
+				30FB3DAF204D2E6000EFD983 /* Assets.xcassets */,
+				30FB3DB1204D2E6000EFD983 /* LaunchScreen.storyboard */,
+				30FB3DB4204D2E6000EFD983 /* Info.plist */,
+				30FB3DB5204D2E6000EFD983 /* main.m */,
+			);
+			path = Jenkins;
+			sourceTree = "<group>";
+		};
+		30FB3DBE204D2E6000EFD983 /* JenkinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				30FB3DBF204D2E6000EFD983 /* JenkinsTests.m */,
+				30FB3DC1204D2E6000EFD983 /* Info.plist */,
+			);
+			path = JenkinsTests;
+			sourceTree = "<group>";
+		};
+		30FB3DC9204D2E6000EFD983 /* JenkinsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30FB3DCA204D2E6000EFD983 /* JenkinsUITests.m */,
+				30FB3DCC204D2E6000EFD983 /* Info.plist */,
+			);
+			path = JenkinsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30FB3DA2204D2E6000EFD983 /* Jenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FB3DCF204D2E6000EFD983 /* Build configuration list for PBXNativeTarget "Jenkins" */;
+			buildPhases = (
+				30FB3D9F204D2E6000EFD983 /* Sources */,
+				30FB3DA0204D2E6000EFD983 /* Frameworks */,
+				30FB3DA1204D2E6000EFD983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jenkins;
+			productName = Jenkins;
+			productReference = 30FB3DA3204D2E6000EFD983 /* Jenkins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30FB3DBA204D2E6000EFD983 /* JenkinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FB3DD2204D2E6000EFD983 /* Build configuration list for PBXNativeTarget "JenkinsTests" */;
+			buildPhases = (
+				30FB3DB7204D2E6000EFD983 /* Sources */,
+				30FB3DB8204D2E6000EFD983 /* Frameworks */,
+				30FB3DB9204D2E6000EFD983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FB3DBD204D2E6000EFD983 /* PBXTargetDependency */,
+			);
+			name = JenkinsTests;
+			productName = JenkinsTests;
+			productReference = 30FB3DBB204D2E6000EFD983 /* JenkinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30FB3DC5204D2E6000EFD983 /* JenkinsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FB3DD5204D2E6000EFD983 /* Build configuration list for PBXNativeTarget "JenkinsUITests" */;
+			buildPhases = (
+				30FB3DC2204D2E6000EFD983 /* Sources */,
+				30FB3DC3204D2E6000EFD983 /* Frameworks */,
+				30FB3DC4204D2E6000EFD983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FB3DC8204D2E6000EFD983 /* PBXTargetDependency */,
+			);
+			name = JenkinsUITests;
+			productName = JenkinsUITests;
+			productReference = 30FB3DC6204D2E6000EFD983 /* JenkinsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30FB3D9B204D2E6000EFD983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = TZ;
+				TargetAttributes = {
+					30FB3DA2204D2E6000EFD983 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					30FB3DBA204D2E6000EFD983 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30FB3DA2204D2E6000EFD983;
+					};
+					30FB3DC5204D2E6000EFD983 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30FB3DA2204D2E6000EFD983;
+					};
+				};
+			};
+			buildConfigurationList = 30FB3D9E204D2E6000EFD983 /* Build configuration list for PBXProject "Jenkins" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30FB3D9A204D2E6000EFD983;
+			productRefGroup = 30FB3DA4204D2E6000EFD983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30FB3DA2204D2E6000EFD983 /* Jenkins */,
+				30FB3DBA204D2E6000EFD983 /* JenkinsTests */,
+				30FB3DC5204D2E6000EFD983 /* JenkinsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30FB3DA1204D2E6000EFD983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FB3DB3204D2E6000EFD983 /* LaunchScreen.storyboard in Resources */,
+				30FB3DB0204D2E6000EFD983 /* Assets.xcassets in Resources */,
+				30FB3DAE204D2E6000EFD983 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB3DB9204D2E6000EFD983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB3DC4204D2E6000EFD983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30FB3D9F204D2E6000EFD983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FB3DAB204D2E6000EFD983 /* ViewController.m in Sources */,
+				30FB3DB6204D2E6000EFD983 /* main.m in Sources */,
+				30FB3DA8204D2E6000EFD983 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB3DB7204D2E6000EFD983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FB3DC0204D2E6000EFD983 /* JenkinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB3DC2204D2E6000EFD983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FB3DCB204D2E6000EFD983 /* JenkinsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30FB3DBD204D2E6000EFD983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FB3DA2204D2E6000EFD983 /* Jenkins */;
+			targetProxy = 30FB3DBC204D2E6000EFD983 /* PBXContainerItemProxy */;
+		};
+		30FB3DC8204D2E6000EFD983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FB3DA2204D2E6000EFD983 /* Jenkins */;
+			targetProxy = 30FB3DC7204D2E6000EFD983 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30FB3DAC204D2E6000EFD983 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FB3DAD204D2E6000EFD983 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30FB3DB1204D2E6000EFD983 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FB3DB2204D2E6000EFD983 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30FB3DCD204D2E6000EFD983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30FB3DCE204D2E6000EFD983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30FB3DD0204D2E6000EFD983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FGV9RA48C2;
+				INFOPLIST_FILE = Jenkins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = obj.Jenkins.tz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9a9304e8-8e9e-4ba9-9a76-1f1be82c771b";
+				PROVISIONING_PROFILE_SPECIFIER = Jenkins;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30FB3DD1204D2E6000EFD983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FGV9RA48C2;
+				INFOPLIST_FILE = Jenkins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = obj.Jenkins.tz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9a9304e8-8e9e-4ba9-9a76-1f1be82c771b";
+				PROVISIONING_PROFILE_SPECIFIER = Jenkins;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30FB3DD3204D2E6000EFD983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = obj.JenkinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jenkins.app/Jenkins";
+			};
+			name = Debug;
+		};
+		30FB3DD4204D2E6000EFD983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = obj.JenkinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jenkins.app/Jenkins";
+			};
+			name = Release;
+		};
+		30FB3DD6204D2E6000EFD983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = obj.JenkinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jenkins;
+			};
+			name = Debug;
+		};
+		30FB3DD7204D2E6000EFD983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JenkinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = obj.JenkinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jenkins;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30FB3D9E204D2E6000EFD983 /* Build configuration list for PBXProject "Jenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FB3DCD204D2E6000EFD983 /* Debug */,
+				30FB3DCE204D2E6000EFD983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FB3DCF204D2E6000EFD983 /* Build configuration list for PBXNativeTarget "Jenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FB3DD0204D2E6000EFD983 /* Debug */,
+				30FB3DD1204D2E6000EFD983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FB3DD2204D2E6000EFD983 /* Build configuration list for PBXNativeTarget "JenkinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FB3DD3204D2E6000EFD983 /* Debug */,
+				30FB3DD4204D2E6000EFD983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FB3DD5204D2E6000EFD983 /* Build configuration list for PBXNativeTarget "JenkinsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FB3DD6204D2E6000EFD983 /* Debug */,
+				30FB3DD7204D2E6000EFD983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30FB3D9B204D2E6000EFD983 /* Project object */;
+}
